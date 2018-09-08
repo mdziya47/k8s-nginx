@@ -53,7 +53,6 @@ yaml:
 
 
 
-
 kuebctl apply -f nginx.yaml
 
 
