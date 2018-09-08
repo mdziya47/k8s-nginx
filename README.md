@@ -13,6 +13,10 @@ service:
 
 
  kubectl expose deployment my-nginx --port=80 --type=LoadBalancer
+ 
+ 
+ 
+ 
  kubectl get service -o wide
  
 
@@ -51,4 +55,7 @@ yaml:
 
 
 kuebctl apply -f nginx.yaml
+
+
+
 kubectl get pods -o wide
