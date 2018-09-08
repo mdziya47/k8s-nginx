@@ -40,15 +40,15 @@ yaml:
  
  
  node selector:
-  ---------
- spec:
-      containers:
-      - name: my-nginx
-        image: nginx
-        ports:
-        - containerPort: 80
-        nodeSelector:
-         node: app
+---------
+ spec:
+      containers:
+      - name: my-nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+        nodeSelector:
+         node: app
 ----
 
 
