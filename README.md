@@ -58,3 +58,6 @@ kuebctl apply -f nginx.yaml
 
 
 kubectl get pods -o wide
+
+https://aws.amazon.com/premiumsupport/knowledge-center/eks-kubernetes-services-cluster/
+
